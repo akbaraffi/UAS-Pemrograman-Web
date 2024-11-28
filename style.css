@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(to right, #B0BEC5, #607D8B);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.nama-restoran {
+  color: black;
+  font-size: 20px;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.custom-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.custom-nav-item {
+  margin-right: 20px;
+}
+
+.custom-nav-link {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.custom-nav-link:hover {
+  color: white;
+}
+
+.custom-nav-link.active {
+  color: black;
+  font-weight: bold;
+}
+
+.carousel {
+  height: 450px;
+  overflow: hidden;
+  background: linear-gradient(to right, #E0E0E0, #90A4AE);
+}
+
+.carousel img {
+  height: auto;
+  object-fit: cover;
+}
+
+.main {
+  padding: 10px 20px 20px;
+  text-align: center;
+  flex: 1;
+  background: linear-gradient(to right, #E0E0E0, #90A4AE);
+}
+
+.main-contact {
+  padding: 20px 200px;
+  text-align: center;
+  flex: 1;
+  background: linear-gradient(to right, #E0E0E0, #90A4AE);
+}
+
+footer {
+  background: linear-gradient(to top, #a1a1a1, #90A4AE);
+  color: black;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  margin: 20px;
+  width: calc(50% - 40px);
+  padding: 15px;
+  border: 1px solid rgb(138, 158, 162);
+  border-radius: 5px;
+  background-color: rgb(138, 158, 162);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main-contact form {
+  text-align: left;
+}
+
+.main-contact form button {
+  display: block;
+  margin: 0 auto;
+}
+
+.image {
+  padding-top: 20px;
+  height: 500px;
+  overflow: hidden;
+  background: linear-gradient(to right, #E0E0E0, #90A4AE);
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: auto;
+}
