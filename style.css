@@ -69,7 +69,7 @@ header {
 }
 
 .main {
-  padding: 10px 20px 20px;
+  padding: 20px;
   text-align: center;
   flex: 1;
   background: linear-gradient(to right, #E0E0E0, #90A4AE);
@@ -93,7 +93,6 @@ footer {
 }
 
 .menu-container {
-  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
