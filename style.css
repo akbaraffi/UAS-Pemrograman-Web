@@ -68,6 +68,7 @@ header {
 }
 
 .carousel-item img {
+  margin-top: 60px;
   height: 500px;
   object-fit: cover;
   object-position: center;
