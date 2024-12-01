@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #B0BEC5, #607D8B);
+  background: linear-gradient(to right, rgba(176, 190, 197, 0.9), rgba(96, 125, 139, 0.9));
   color: white;
   display: flex;
   justify-content: space-between;
