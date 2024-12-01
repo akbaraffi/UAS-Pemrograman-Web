@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
@@ -15,6 +14,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  position: fixed; 
+  top: 0;       
+  left: 0;       
+  width: 100%;    
+  z-index: 1000;  
 }
 
 .logo {
@@ -58,28 +62,46 @@ header {
 }
 
 .carousel {
-  height: 450px;
+  height: 500px;
   overflow: hidden;
   background: linear-gradient(to right, #E0E0E0, #90A4AE);
 }
 
-.carousel img {
-  height: auto;
+.carousel-item img {
+  height: 500px;
   object-fit: cover;
+  object-position: center;
 }
 
-.main {
+
+.main-index {
   padding: 20px;
   text-align: center;
   flex: 1;
-  background: linear-gradient(to right, #E0E0E0, #90A4AE);
+  background: linear-gradient(to right, #E0E0E0, #adc2cc);
+}
+
+.main-menu {
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  background: linear-gradient(to right, #E0E0E0, #adc2cc);
 }
 
 .main-contact {
+  margin-top: 60px;
   padding: 20px 200px;
   text-align: center;
   flex: 1;
-  background: linear-gradient(to right, #E0E0E0, #90A4AE);
+  background: linear-gradient(to right, #E0E0E0, #adc2cc);
+}
+
+.main-about {
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  background: linear-gradient(to right, #E0E0E0, #adc2cc);
 }
 
 footer {
@@ -112,6 +134,10 @@ footer {
   align-items: center;
 }
 
+.menu-item h3 {
+  margin-top: 10px; 
+}
+
 .menu-image {
   width: 100%;
   max-width: 100%;
@@ -129,10 +155,11 @@ footer {
 }
 
 .image {
+  margin-top: 40px;
   padding-top: 20px;
   height: 500px;
   overflow: hidden;
-  background: linear-gradient(to right, #E0E0E0, #90A4AE);
+  background: linear-gradient(to right, #E0E0E0, #adc2cc);
   width: auto;
   display: flex;
   align-items: center;
@@ -140,8 +167,10 @@ footer {
 }
 
 .image img {
+  margin: 20px;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .contact-details {
