@@ -1,1 +1,1 @@
-Contains the final project for the Web Programming course.
+This repository contains the final project for the Web Programming course.
